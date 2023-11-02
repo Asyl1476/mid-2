@@ -17,11 +17,11 @@ class Student:
 
 student1 = Student("Adil")
 math_subject = Subject("Math")
-rus_subject = Subject("russ")
+russian_subject = Subject("russ")
 diary = Diary(student1)
 
 diary.add_subject(math_subject)
-diary.add_subject(rus_subject)
+diary.add_subject(russian_subject)
 
 print(f"Student: {diary.student.name}")
 print("Subjects:")
