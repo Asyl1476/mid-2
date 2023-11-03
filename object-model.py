@@ -17,7 +17,7 @@ class Student:
 
 student1 = Student("Adil")
 math_subject = Subject("Math")
-russian_subject = Subject("russ!!!")
+russian_subject = Subject("russ")
 diary = Diary(student1)
 
 diary.add_subject(math_subject)
